@@ -1,0 +1,41 @@
+{
+  "name": "accounting-ai-agent",
+  "version": "0.1.0",
+  "description": "経理・財務AIエージェント - freee APIから会計データを取得し、経営判断に使えるレポートを生成",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx src/cli/index.ts",
+    "report": "tsx src/cli/index.ts",
+    "web": "tsx src/web/server.ts",
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "accounting",
+    "freee",
+    "ai-agent",
+    "financial-report"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.80.0",
+    "axios": "^1.13.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "marked": "^17.0.5",
+    "multer": "^2.1.1",
+    "puppeteer": "^24.40.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/multer": "^2.1.0",
+    "@types/node": "^25.5.0",
+    "vitest": "^4.1.0"
+  }
+}

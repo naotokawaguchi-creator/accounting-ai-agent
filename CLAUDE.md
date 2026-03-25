@@ -1,0 +1,1 @@
+/Users/kawaguchinaoto/Desktop/企業AI OS/CLAUDE.md
